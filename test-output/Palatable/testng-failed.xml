@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Palatable]">
+  <listeners>
+    <listener class-name="com.palatable.ios.utilites.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="LaunchTest(failed)">
+    <classes>
+      <class name="com.palatable.ios.testcases.LaunchScreenTesting">
+        <methods>
+          <include name="check_facebook_links"/>
+          <include name="setupAppium"/>
+          <include name="uninstallApp"/>
+        </methods>
+      </class> <!-- com.palatable.ios.testcases.LaunchScreenTesting -->
+    </classes>
+  </test> <!-- LaunchTest(failed) -->
+</suite> <!-- Failed suite [Palatable] -->

@@ -1,0 +1,8 @@
+com/palatable/ios/utilites/Reporting.class
+com/palatable/ios/utilites/XLUtils.class
+com/palatable/ios/utilites/ReadConfig.class
+com/palatable/ios/testcases/LaunchScreenTesting.class
+com/palatable/ios/pageobjects/LoginSceen.class
+com/palatable/ios/pageobjects/ErrorPopup.class
+com/palatable/ios/pageobjects/WelcomeScreen.class
+com/palatable/ios/testcases/BaseClass.class
